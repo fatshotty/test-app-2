@@ -1,0 +1,44 @@
+{
+  "name": "test-adesso",
+  "version": "1.0.0",
+  "description": "a simple test exercise for adesso.it",
+  "license": "ISC",
+  "author": "fatshotty",
+  "type": "module",
+  "main": "application.ts",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "serve": "webpack serve",
+    "start": "node src/application.js",
+    "test": "NODE_ENV=test vitest",
+    "test-coverage": "NODE_ENV=test vitest run --coverage"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/coverage-v8": "^3.0.7",
+    "css-loader": "^7.1.2",
+    "jsdom": "^26.0.0",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-middleware": "^7.4.2",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.3",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-bootstrap-typeahead": "^7.0.0-rc.5",
+    "react-dom": "^19.0.0",
+    "realm": "^20.1.0"
+  }
+}
