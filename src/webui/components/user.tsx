@@ -81,6 +81,9 @@ export function UserView(props: UserProps) {
       })}
       <hr />
       <Row>
+        <h5>
+          Submit new order
+        </h5>
         <Col className="col-md-1">
           <select ref={refPizzas} multiple={true} >
             {pizzas.map((pizza, i) => {
